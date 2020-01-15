@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Contact from "./components/Contact";
+import Contacts from "./components/Contacts";
 import Header from "./components/Header";
 import "./App.css";
 
@@ -12,11 +12,7 @@ class App extends Component {
         <Header branding="Lista de contatos" />
         <div className="container">
           <h1> Clientes </h1>
-          <Contact
-            nome="Jane Doe"
-            email="janedoe@gmail.com"
-            telefone="(11) 2222-2222"
-          />
+          <Contacts />
         </div>
       </div>
     );

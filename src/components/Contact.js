@@ -2,22 +2,49 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 export default class Contact extends Component {
+  state = {
+    showContactInfo: false
+  };
+
+  onDeleteClick = () => {
+    this.props.deleteClickHandler();
+  };
+
   render() {
-    const { nome, email, telefone } = this.props;
+    const { name, email, phone } = this.props.contact;
+    const { showContactInfo } = this.state;
     return (
       <div className="card card-body mb-3">
-        <h4>Nome: {nome}</h4>
-        <ul className="list-group">
-          <li className="list-group-item">Email: {email}</li>
-          <li className="list-group-item">Telefone: {telefone}</li>
-        </ul>
+        <h4>
+          Nome: {name}{" "}
+          <i
+            onClick={() => {
+              this.setState({ showContactInfo: !this.state.showContactInfo });
+            }}
+            className="fas fa-sort-down"
+            style={{ cursor: "pointer" }}
+          ></i>
+          <i
+            className="fas fa-times"
+            style={{ cursor: "pointer", float: "right", color: "red" }}
+            onClick={this.onDeleteClick}
+          ></i>
+        </h4>
+        {showContactInfo ? (
+          <ul className="list-group">
+            <li className="list-group-item">Email: {email}</li>
+            <li className="list-group-item">Telefone: {phone}</li>
+          </ul>
+        ) : null}
       </div>
     );
   }
 }
 
 Contact.propTypes = {
-  nome: PropTypes.string.isRequired,
-  email: PropTypes.string.isRequired,
-  telefone: PropTypes.string.isRequired
+  // name: PropTypes.string.isRequired,
+  // email: PropTypes.string.isRequired,
+  // phone: PropTypes.string.isRequired
+  contact: PropTypes.object.isRequired,
+  deleteClickHandler: PropTypes.func.isRequired
 };
