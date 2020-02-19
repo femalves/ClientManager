@@ -2,6 +2,7 @@
   "name": "clientmanager",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://jsonplaceholder.typicode.com",
   "homepage": "https://femalves.github.io/ClientManager",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
