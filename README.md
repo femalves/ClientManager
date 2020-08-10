@@ -1,70 +1,61 @@
-Demo:  https://femalves.github.io/ClientManager/#/
+<p align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/femalves/ClientManager?style=flat-square" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/femalves/ClientManager?style=flat-square" />
+  <img alt="" src="https://img.shields.io/github/repo-size/femalves/ClientManager?style=flat-square" />
 
-## Available Scripts
+  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/femalves/ClientManager?style=flat-square" />
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blueviolet?style=flat-square">
 
-### `yarn start`
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+___
+<br>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<img width="1273" alt="Screen Shot 2020-08-10 at 14 41 28" src="https://user-images.githubusercontent.com/9547354/89813893-bf18e800-db18-11ea-9dbd-9f486e01e756.png">
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :japanese_ogre: Demo Web
 
-### `yarn build`
+[Visit demo website](https://femalves.github.io/ClientManager/#/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :computer: Technologies used
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [Javascript](https://www.javascript.com/)
+- [React](https://reactjs.org/)
+- [Context](https://reactjs.org/docs/context.html)
+- [JSON Placeholder](https://jsonplaceholder.typicode.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### :nail_care: Styling
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Font Awesome](https://fontawesome.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### :running: How to run
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Clone this repository
+$ git clone https://github.com/femalves/ClientManager
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# From the terminal, go to folder
+$ cd clientmanager
 
-### Code Splitting
+# Install dependencies
+$ npm install or yarn add
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Run Application
+$ npm start ou yarn start
 
-### Analyzing the Bundle Size
+# Go to http://localhost:3000
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
+## :memo: License
 
-### Making a Progressive Web App
+[MIT](LICENSE)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
